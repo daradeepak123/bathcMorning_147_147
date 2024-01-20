@@ -1,0 +1,140 @@
+
+
+
+Agenda
+	1. Method with parameter
+	2. Condtions
+
+public static void main(String args[])
+{
+
+
+}
+	
+!----------------conditions----------------!
+
+	a. Simple if
+	b. else if
+	c. ladder if
+	d. nested if
+	e. switch cases
+
+
+
+condition if greater then 500 than get a bicycle
+
+
+if(true/false)
+{
+statements1;
+statements2;
+}
+
+int marks=501;
+
+if(marks>500)
+{
+syso("get a bicycle" );
+}
+
+
+
+!-------------------ladder if-----------------!
+
+int marks=605
+
+if(marks>500 && marks<=600)
+{
+syso("you will get a bicycle");
+}
+	t && f  f
+else if(marks>400 && marks<500)
+{
+syso(you will get a day outing);
+}
+
+else if(marks>300 && marks <400)
+{
+syso(you will get new dress);
+}
+
+else if(marks<300 && marks >0)
+{
+syso(you need to  be in same standard);
+}
+
+else
+{
+syso("enter the marks between 0-600");
+}
+
+
+
+question:
+	1. Generate ele billing 
+
+range of 1-200 price will be 2rs/unit
+range of 201-400 price will be 3.5/unit
+range of 401-700 price will be 5/unit
+range of 701-inf price will be 8/unit
+range should be greater than or equals to1
+
+
+100 *2 --->200rs
+400*3.5== > xyzrs
+
+1000*8===> 8k
+
+
+
+
+
+
+
+
+
+
+
+Assignment:
+	1. Print students marks pass/fail for each and every subject based on marks.
+		Note: create 6 methods for each and every subject.
+		      create 1 method should deal with all subject
+
+	2. after addition of all marks if student get less than 210 than student failed.
+	3. Take 1 and 2 questions append with else block
+	
+
+
+
+else if
+
+int mark=100;
+
+if(10>=35)
+{
+syso("you are pass");
+}
+else
+{
+syso("you are failed");
+}
+
+
+
+int num=55;
+    1==0
+if(num%2==0)  //rem will be 1
+{
+syso("this is even number");
+}
+else
+{
+syso("this is odd number");
+}
+
+
+
+
+
+
+

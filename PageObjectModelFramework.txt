@@ -1,0 +1,14 @@
+
+
+
+Agenda
+	1. PageObject Model
+
+
+LeftOverTopics
+	1. Cucumber
+	2. Git
+	3. Jenkins
+
+Exceptions
+

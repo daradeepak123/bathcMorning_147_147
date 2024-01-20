@@ -1,0 +1,114 @@
+
+
+
+Agenda
+	1. TestNG framework  (base class all the before and after annotations  has been inhereted by test classes)
+	2. Test annotation attributes
+	3. Genric methods
+		
+		check if element is there or not
+		check if element is enabled or not
+		wait for the webelement
+		click on element
+		if not able to click use java script logic to click
+
+			10-15 lines of code for single click operation
+				10*1000 =10000
+			
+
+	4. Crossbrowser testing
+	6. Read data from Property file
+	7. bulk execution
+	8. Parallel execution
+	9. DataProvider
+
+int a=100;
+String str="hello";
+
+
+		@DataProvider
+		public object[][] dp()
+		{
+			return {{"hello","hi"},{"hi","hello"},{"abc","xyz"},{"abc","abc"}}'	
+		}
+	@Test(DataProvider="dp")
+	public void hello(String ss,String sss)
+	{
+		syso(ss + sss);
+	}
+
+
+	10. Asserts
+
+Asserts
+	
+
+
+
+
+beforesuite
+
+beforetest
+
+beforeclass
+
+beforemethod
+
+test1
+
+test2
+
+Aftermethod
+
+afterclass
+
+aftertest
+
+aftersuite
+
+baseclass
+(all before and after annotations)
+
+
+class1(dashboard) extends baseclass
+before method
+	test1   
+	test2
+	test3
+aftermethods
+
+class2 extends baseclass
+
+beforemethod
+	testa
+	testb
+	testc
+aftermethod
+
+
+<suite>
+	<test>
+		<classes>
+			<class1>
+				<methods></methods>
+			</class1>
+			<class2>
+				<methods></methods>
+			</class2>
+		</classes>
+	</test>
+	
+
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+	

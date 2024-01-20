@@ -1,0 +1,61 @@
+
+
+Agenda
+	1. Functional flow
+	2. Read data from excel
+
+Test case 1: Validation of texts in Dashboead page
+
+1. Open the browser
+2. Open OrangeHRM application
+3. Login into the application
+4. Dashboard page
+5. validate texts in the page
+
+
+Test case 2: validation of data in the Admin table
+
+1. Open the browser
+2. Open OrangeHRM application
+3. Login into the application
+4. Admin tab
+5. Search for admin
+6. Fetch admin
+7. Validate the data
+
+
+Test case: 3
+
+1. Open Browser
+2. Open TheInternet application
+3. Drag the WelElement A to WebElement B
+
+WebDriver driver=new FireFoxDriver();
+D.m().max();
+d.get("url");
+
+
+Actions act=new Actions(driver);
+WebElement ele1=driver.findElement(By.xpaht("//div[@id='column-a']"));
+WebElement ele2=driver.findElement(By.xpaht("//div[@id='column-b']"));
+act.dragAdnDrop(ele1,ele2).build().perform();
+
+
+
+Read the data from Excel Sheet
+
+
+
+
+
+
+Assignment
+
+1. Write 10 functional flows for your desired application
+2. Create a method for common code
+
+
+
+
+
+

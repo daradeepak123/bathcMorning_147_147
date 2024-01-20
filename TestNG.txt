@@ -1,0 +1,86 @@
+
+
+
+
+Agenda
+	1. TestNG
+
+a. TestNg builded based on Java
+b. Before TestNG we have JUnit
+c. With reference of Junit TestNG was build
+
+Annotations and sequences of TestNG
+
+1. BeforeSuite    (open excel files)
+2. BeforeTest     (browser)
+3. BeforeCLass	  (Login into application)
+4. BeforeMethod   (go to the relevent module)
+5. Test 	  (perform the testcase/testactions)
+6. AfterMethod    (Go to home page)
+7. AfterClass	  (Logout)
+8. AfterTest	  (Close the browser)
+9. AfterSuite	  (Save the documents and close it)
+
+
+Instllation
+
+GO to eclipse market place 
+		-> Search for TestNG -> Install TestNG
+
+Go to maven repository web application 	
+		-> search for TestNG dependency -> copy the dependency
+		-> place it in pom.xml file
+
+TestNG adding libs
+	rightclick on project -> configure build path -> add libraries -> select testNG
+
+All the actions need to perform as part of instllation
+
+
+
+
+ 
+TestCase
+
+TC1
+
+1. Open testcases document
+2. OpenBrowser
+3. Load URL
+4. Login intoapplication
+5. Perform testcase
+6. Logout
+7. Close the browser
+8. Sace the documents
+9. complete the execution
+ 
+TC2
+
+1. Open testcases document
+2. OpenBrowser
+3. Load URL
+4. Login intoapplication
+5. Perform testcase
+6. Logout
+7. Close the browser
+8. Sace the documents
+9. complete the execution
+
+
+a keyword appended with piece of metadata
+
+INterface ABC
+{
+
+public void hello();
+
+}
+
+class XYZ implements ABC
+{
+@override
+public void hello()
+{
+}
+
+}

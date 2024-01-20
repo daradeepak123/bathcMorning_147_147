@@ -1,0 +1,104 @@
+
+
+
+Agenda:
+	1. Locators
+		1. ID
+		2. Name
+		3. class
+		4. tagname
+		5. linktext
+		6. Partial linktext  1-100   (apple  pp )
+		7. Css Selector
+		8. xpath
+
+google 
+
+go
+
+
+<html>
+
+	<input id="abc"></input>
+	<input></input>
+</html>
+
+
+
+WebDriver driver=new FireFoxDriver();
+
+driver.get("https://www.facebook.com/");
+
+driver.findElement(By.name("username"));
+
+
+<p>hello</p>
+
+
+
+WebDriver driver=new FireFoxDriver();
+
+driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+
+driver.findElement(By.id("username"));
+
+
+
+driver.findELemetn(By.id("email"));
+
+driver.findelemenet(By.class("inputtext _55r1 inputtext _1kbt inputtext _1kbt"))
+
+
+
+
+3   ram
+
+ram 3 people will respond
+
+ram 
+
+
+
+CssSelector
+
+
+By id
+
+driver.findElement(By.cssSelector("#email"));
+
+By combination of tag and id
+
+tag#valueofID
+
+driver.findElement(By.cssSelector("input#email"));
+
+
+By Class name
+
+.input.oxd-input--active
+
+By combination of tag and class name
+
+By combitation of tag and multiple attributes
+
+tag[att1=value]
+
+input[name='username'][placeholder='Username']
+
+
+
+<input name="hello" class="abc"></input>
+<input name="hello1" class="abc"></input>
+<input name="hello" class="abc1"></input>
+<button name="hello" class="abc"></input>
+<button name="hello1" class="abc1"></input>
+
+driver.findElement(By.cssSelector(""))
+
+input[name='hello1'][class='abc']
+
+
+
+
+
+

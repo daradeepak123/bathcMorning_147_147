@@ -1,0 +1,46 @@
+
+
+Agenda
+	1. Alerts	
+	2. Windowhandles
+	3. iFrames
+	4. ScrollFunctions
+	5. Screenshot
+	6. Functional flow for 2 test cases
+
+
+Alerts	
+
+	types of alerts
+		a. Accept the alert
+		b. dismiss the alert
+		c. send data to alerts and accept
+
+
+
+Windowhandles
+
+
+
+
+<html>
+	<input id="abc"></input>
+	<iframe id="frm">
+	<html>
+		<input id="xyz"></input>
+
+	</html>
+	</iframe>
+</html>
+
+
+wd d =new fd();
+maxmiz
+load the url
+d.fe(//input[@id='abc']).sendKeys("India");
+
+d.fe(//input[@id='xyz']).sendKeys("america");
+
+
+
+

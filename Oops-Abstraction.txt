@@ -1,0 +1,137 @@
+
+
+
+Agenda
+
+	1. Abstract method   will  not have any implementation ( child class implementation will be hidden at initial level)
+	2. Abstract Class   (0-100%)  
+	3. Interface        (100%)
+	4. Encapsulation
+		a. Access modifiers
+			
+
+abstract class Car
+{
+p v h()
+{
+}
+}
+
+public class ford extends Car
+{
+p v e()
+{
+
+}
+p v d()
+{
+
+}
+p v w()
+{
+
+}
+
+p v p()
+{
+
+}
+
+}
+
+public class Benz extends Car
+{
+
+p v e()
+{
+
+}
+p v d()
+{
+
+}
+p v w()
+{
+
+}
+
+p v p()
+{
+
+}
+
+
+}
+
+
+
+Class User
+{
+
+p s v m()
+{
+Benz b=new Benz();
+b.p();
+}
+
+
+}
+
+
+
+public Interface wish
+{
+
+public void greet();
+
+}
+
+
+public class India implements wish
+{
+
+public void greet()
+{
+syso("namaste");
+}
+
+}
+
+public class America implements wish
+{
+
+public void greet()
+{
+syso("Hand shake");
+}
+
+}
+
+
+public class AUstralia implements wish
+{
+
+public void greet()
+{
+syso("Hug");
+}
+
+}
+
+
+class User
+{
+
+p s v m()
+{
+AUstralia a=new AUstralia();
+a.greet();
+
+
+}
+
+}
+
+
+
+

@@ -1,0 +1,59 @@
+
+
+
+
+Agenda
+	1. WebElements dealing
+		1. textbox
+		2. buttons
+		3. hyperlinks
+		4. text retrival
+		5. DropDown	
+			WebElement ele=driver.findelemet(By.xpaht("//select"));
+			Select slt=new Select(ele);
+			slt.selectByVisibalText("Option 1");
+			slt.selectByvalue("1");
+			slt.selectByIndex(2);
+		6. File upload
+		7. WebTable (WebELements)
+
+		8. Actions class
+		9. WindowHandle
+		10. WindowHandles
+
+
+
+Collections
+List<datatype> lst=new ArrayList<datatype>();
+
+
+List<Integer> lst=new ArrayAist<Integer>();
+
+for(int i=0;i<=100;i++)
+{
+lst.add(i);
+}
+
+
+for(int str:lst)
+{
+syso(str);
+}
+
+
+
+For loop
+return type
+collections
+
+
+
+Assignment
+	1. Open webapplication
+		a. find all elements
+		b. perform actions on the webelements
+
+
+
+
+

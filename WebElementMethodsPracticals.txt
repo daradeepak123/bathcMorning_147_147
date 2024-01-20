@@ -1,0 +1,42 @@
+
+
+Agenda
+	1. WebElement Methods
+		a. click
+		b. clear
+		c. sendkeys
+		d. displayed
+		e. enabled
+		f. gettext
+		g. getattribute
+
+	textbox
+	button
+	hyperlink
+	text
+	dropdown
+
+
+images
+buttons
+hyperlink
+text
+textboxes
+menu items
+submenu items
+tables
+radio buttons
+checkboxes
+
+Dropdown
+drag and drop elements
+
+
+Select slt=new Select(webElement);
+
+
+	
+
+
+
+

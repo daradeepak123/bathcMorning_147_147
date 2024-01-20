@@ -1,0 +1,121 @@
+
+
+Agenda
+	1. Operators
+	2. Method with parameters
+	3. Conditions
+
+< >= <= > == !=
+
+
+
+!------------------------Operators-----------------!
+
+
+Logical Operators
+
+	&& || not(!)
+
+
+
+boolean bool=!true ;
+syso(bool);  //true
+
+
+
+
+true 
+
+syso(!true);
+
+
+
+!----------assignment operators-------------!
+
+
+= += -= *= /= %= 
+
+int a =1000;
+boolean b=a==50;
+syso(a);
+syso(b);
+a+=100;  1100
+
+a*=2;  --> 2200
+
+a/=10 --> 220
+syso(a);
+a%=10 --> 0
+
+syso(a);
+
+
+!--------------incremental/ decremental operators------------!
+
+
+int a=100;
+
+a++;
+syso(a);
+a--;
+syso(a);
+
+pre increment and pre decrement and post inc/post dec
+
+
+!-----------------------Method with parameter-----------!
+
+
+
+public static void add(int x,int y)
+{
+
+int a=x;
+int b=y;
+int c=a+b;
+syso(c)
+
+}
+
+p s v m()
+{
+add(100,5000); ==>   100 +5000
+add(1,0); ==>   1+0
+add(1,300); ==>   2+300
+}
+
+
+
+
+Assignment
+	1. Print Student result if he got less than 35 in any of his subject.
+
+Note: Create class level variables in anothe class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,161 @@
+
+
+Agenda
+	1. String Example
+	2. Oops theory
+		a. Class   
+		b. Object
+			State  My name, My height, Complaxion and so on
+			behaviout 
+		c. Method
+		d. Inheretance
+			a. Single level
+			b. Multi Level
+			c. Hybrid
+			d. Hirerchial
+		e. PolyMorphysim
+			a. Overloading
+			b. Overriding
+		f. Abstraction
+			a. Abstract class
+			b. Interface
+			c. Abstract method
+		g. Encapsulation
+			a. Access modifier
+			b. getter and setter
+		
+
+
+
+!-------------------Duplication of Characters---------!
+
+String str="hello";
+
+
+1. Find out how many duplicate characters are there in GIven String
+
+
+String str="mom and dad are going to meet madam";
+String words[]=str.split(" ");
+for(String ss:words)
+{
+for(int i=0;i<ss.length();i++)
+{
+
+int fIndex=ss.indexOf(charAt(i));
+int lIndex=ss.lastIndexOf(charAt(i));
+
+if(fIndex==lIndex)
+{
+syso(this character is not getting duplicated);
+}
+else
+{
+syso(this character is getting duplicated);
+}
+}
+
+
+
+
+
+}
+
+
+
+
+String str="mom and dad are going to meet madam";
+
+String words[]=str.Split(" ");
+
+for(int i=0;i<words.length;i++)
+{
+
+for(int j=i+1;j<words.lenght;j++)
+{
+if(words[i]==words[j])
+{
+syso(String getting duplicated);
+}
+}
+
+
+}
+
+
+
+!--------------Check howmany alphabet numeric and special characters are there in a given String--!
+
+
+
+String str="hello9!2@32";
+
+for(int i=0;i<str.lenght();i++)
+{
+if(character.isDigit(str.charAt(i)))
+{
+syso(str.charAt(i) + " is a numeric value");
+}
+else if(character.isAlphabet(str.charAt(i)))
+{
+syso(str.charAt(i) + " is a alphabet value");
+}
+else
+{
+syso(str.charAt(i) + " is a special character  value");
+
+
+}
+
+}
+
+
+!-------------Convert small alphabets to big and big to small---!
+
+
+String str="HeLlO";
+
+for(int i=0;i<str.lenght();i++)
+{
+
+if(Character.isUpperCase(str.charAt(i)))
+{
+syso(Character.toLowerCase(str.charAt(i)));
+}
+else if(Character.isLowerCase(str.charAt(i)))
+{
+syso(Character.toUpperCase(str.charAt(i)));
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+String 
+
+1. String (immutable class)
+2. StringBuffer (mutable)
+3. StringBuilder (mutable)
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+
+
+Agenda
+	1. Read data from excel
+
+		1. GO to the location     File 
+		2. Open the file	  FIleInputStream 
+				  	  XSSFWorkBook
+		3. for the sheet	  XSSFSheet
+		4. read the data from row and column
+
+	2. Maven project
+
+
+1. 4 source folders
+2. src folder
+3. target folder
+4. pol.xml file

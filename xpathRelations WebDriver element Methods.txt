@@ -1,0 +1,34 @@
+
+
+Agenda
+	1. Xpath Relations
+		a. following-sibling
+		b. preceding-sibling
+		c. ancestor
+		d. parent
+		e. child
+	2. WebDriver methods
+	3. WebElement methods
+		
+	
+//table[@id='table1']//td[text()='Tim']
+
+
+//table[@id='table1']//td[text()='Tim']/following-sibling::td[2]
+
+//table[@id='table1']//td[text()='Tim']//preceding-sibling::td
+
+//td[text()='Tim']//following-sibling::td[2]
+
+
+
+
+
+tagname[attribute='value']
+
+
+
+
+
+
+

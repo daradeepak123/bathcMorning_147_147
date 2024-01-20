@@ -1,0 +1,91 @@
+
+
+Agenda
+	1. Xpath
+		a. absolute xpath
+				1. Starts with single /
+				2. will consider from html tag
+		b. relative xpath
+				1. Starts with //
+				2. it can find out welelement anywhere in the dom structure
+	
+<input class="abc1" type="text" placeholder="xyz"></input>
+<input class="abc" type="text1" placeholder="xyz1"></input>
+<input class="abc1" type="text1" placeholder="xyz1"></input>
+<button class="abc" type="button" placeholder="xyz"></button>
+//input[@class='abc1' or type='text1' and placeholder='xyz']
+//input[@type='text' and @class='abc']
+
+
+<a>ahi</a>
+<a>ahello</a>
+<a>bhello1</a>
+
+//a[starts-with(text(),'ahe')]
+
+
+//a[text()='hello']
+//a[contains(text(),'1')]
+
+
+
+
+
+
+a. by tag name
+		//tagname
+b. by tag and attribute name 
+		//tag[@attribute='value']
+		//button[@type='submit']
+		
+c. by tag and multiple attribute name combination
+		//input[@class='oxd-input oxd-input--active' and @name='username']
+d. by text methods
+		1. direct text
+			//tag[text()='textvalue']
+			//a[text()='A/B Testing']
+//span[text()='13C 5G (Starlight Black, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display']
+		2. Contains
+			//tag[contains(text(),'value')]
+A/B Testing
+ing
+
+//span[contains(text(),'13C 5G (Starlight Black')]
+
+		3. starts-with
+//tag[starts-with(text(),'value')]
+
+
+		
+	
+e. by relations
+
+<html>
+	<x></x>
+	<div>
+	     <input></input>
+	     <a></a>
+	     <button></button>
+	     <div></div>
+	     <ul></ul>
+	</div>
+	<div></div>
+</html>
+
+
+
+
+//span[contains(text(),'Black, 8GB RAM,')]
+
+
+//span[text(),'13C 5G (Starlight Black, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display']
+
+
+
+13C 5G (Starlight Black, 4GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display
+
+13C 5G (Starlight Black, 8GB RAM, 128GB Storage) | MediaTek Dimensity 6100+ 5G | 90Hz Display
+
+
+
+

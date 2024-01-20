@@ -1,0 +1,22 @@
+
+
+
+Agenda
+	1. Inheretance
+
+		a. Single level
+		b. Multi leval inheretance
+		c. Hyrerchial
+		d. Hybrid
+	2. Access modifier with Inheritance
+
+
+Assignment:
+	1. Create Multiple classes in different packages.
+		a. Make a pattern in Single level inheritance
+		b. Make a pattern of Multilevel inheritance
+		c. Make a pattern of Hyrerchial inheritance
+
+
+
+

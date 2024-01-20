@@ -1,0 +1,160 @@
+
+
+
+Agenda:
+	1. Conditions
+	2. Loops
+	3. Scanner classes
+
+
+COnditions
+!--------------------Nested---------------!
+
+	1. Nested if
+
+cloths
+	men/women
+		type of dress
+			colour
+				size
+					
+
+
+Job application of Army
+	1. age should be between 18-25
+	2. Education should be inter
+	3. Percentage should be 70
+	4. Only for male and female
+		a. male height should be 178 cms
+		b. male weight should be 80kgs
+		c. female height should be 158 cms
+		d. female weight should be 50kgs
+	5. physical fitness should be good
+	6. mental fitness should be good
+
+int age;
+String edu;
+int perc;
+String gender;
+int height;
+int weight;
+boolean pfitness;
+boolean mfitness
+
+
+	
+
+
+if(age>=18 && age<=25)
+{
+	if(quali.equals("inter"))
+	{
+		if(percentage>=70)
+		{
+			if(gender.equals("male"))
+			{
+				if(height>178)
+				{
+				}
+				else
+				{
+				syso("you are not eligble for this job based on youe height");
+				}
+			}
+			else if(gender.equals("female"))
+			{
+			}
+			else
+			{
+			syso(you are not eligible based on gender);
+			}
+			
+		}
+		else
+		{
+		syso("you are not eligible based on your percentage");
+		}
+	}
+	else
+	{
+	syso("you are not eligible based on your qualification");
+	}
+	
+
+
+}
+else
+{
+syso("you are not eligible for this job based on Age");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	2. Switch
+
+int a=1;
+switch(a)
+{
+
+case :1
+{
+
+break;
+}
+case :2
+{
+
+break;
+}
+
+case :3
+{
+
+break;
+}
+case :4
+{
+
+break;
+}
+case :5
+{
+
+break;
+}
+case :6
+{
+
+break;
+}
+case :7
+{
+
+break;
+}
+
+
+
+}
+
+
+
+
+
+Assignments:
+	1. Job application program
+		a. Apply method with parameter
+		b. method for gender logic 
+
+
+
+
