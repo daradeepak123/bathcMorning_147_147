@@ -1,0 +1,88 @@
+
+
+
+Agenda
+	1. GIt
+
+
+Version
+	1. initial face we are just able to send message  (1-1-23)
+	2. Able to send phots   (1-6-23)
+	3. abole to send videos (1-8-23)
+	4. able to do callings  (20-1-23)
+	5. video callings	
+	6. status 	
+
+
+1. Git
+2. Codehub
+3. tortioseSVN
+
+
+
+
+Have a track
+	1. who added the code
+	2. where added
+	3. what added
+
+
+	2. Jenkins
+
+
+created document
+
+added data
+
+replaced file
+
+added data again
+
+modified data
+
+
+
+so on
+
+
+I am working on loginpage    (10)
+
+dev 2 working on dashboard page (10)
+
+
+dev 3 working on registration page (8)
+
+dev 4 working on dashboard page one module (10)
+
+1 consolidated code that will be used by all   (15 hrs)
+
+
+
+
+1. GitHub
+2. Codehub
+3. tortioseSVN
+
+
+
+Repository    ----------> local repo  -----------> remote repo
+
+
+Instllations
+
+go to gitHib webSite https://git-scm.com/download/win
+Download the file and Install
+
+
+
+
+
+
+
+
+
+
+
+
+
+
